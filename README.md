@@ -1,6 +1,8 @@
 # obsidian-notes-extension
 A Chrome notes extension that works with Obsidian. This plugin will automatically grab the title and URL of the page you are on and prepend them to whatever notes you take. Title and URL are editable. Before saving your notes, you need to select or create a file to save them to. If there are already notes for the tab in the selected file, your new notes will be appended under that header.
 
+Chrome will close an extension popup once it loses focus, making it impossible to interact with the tab and keep notes open. There may be some way to have unsaved note-persistance but it is not implemented yet. As mentioned above, the plugin will append all new notes on the same tab (same URL and title) underneath the same heading allowing small updates.
+
 You can also create and link to keyword files. There is a 'Send to archive' field that will add the page's URL to an 'archive.md' file in the Obsidian vault root directory to be archived later with tools like yt-dlp. 'Skip notes' skips creating the main note allowing only adding the url to the archive file or only creating keyword files.
 
 Obsidian must be open while using this plugin.
