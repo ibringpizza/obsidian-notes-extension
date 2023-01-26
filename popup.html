@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body style="max-width:400px;min-height:750px">
+  <input type='text' id='pg_url' size='40'><br><br>
+  <input type='text' id='pg_title' size='40'><br><br>
+  <div class="options">
+    <input type="checkbox" id="toarchive">
+    <label for="toarchive">Send to archive</label>
+    <input type="checkbox" id="skipnotes">
+    <label for="skipnotes">Skip notes</label><br>
+  </div>
+  <br><br>
+  <textarea id='notes' rows="8" cols="45"></textarea>
+  <br><br><br>
+  <div class='path' id='main_path'>
+    <input type='text' class='pathinput' size='40'>
+    <input type='button' value='select file' class='selectfile'>
+  </div><br><br>
+  <input type="button" id="checkheader" value='Check previous page notes'>
+  <input type='text' id='kw_path' size='40'><br><br>
+  <div id='kw_paths'>
+    <h3>Keyword paths</h3>
+  </div>
+  <input type="button" id="id_change" value="Make Note">
+  <script src="popup.js"></script>
+</body>
+</html>
